@@ -1,0 +1,142 @@
+#Collections: 4 Types
+
+1.List ---->[ ]
+
+2.tuple---->( )
+
+3.set------>{ }
+
+4.Dictionary-->{k:v} -->{"name":"Ajay","age":25}
+                            k     v      k    v
+
+
+1) List data type: -----> mutable in nature
+if we want to represent a group of values as a simge entity where insertion order is preserved and duplicates are allowed we use list data type.
+
+properties of a list object:
+
+1. List represented using []
+
+2.List allows both homogeneous(similar) and heterogeneous(dissimilar) elements
+
+   ex:  x=[10,20,30,40,50] ------>homogeneous
+        y=[101,"Ajay",30980.70]--->heterogenous elements
+
+3.List allows duplicate elements  ex: x=[10,20,30,40,50,10,20,30]
+
+4.In List,Insertion order is followed(preserved) i.e the way the elements are
+  inserted in the same order they are stored or displayed.
+
+5.Each element of a list is identified or accessed by a unique index
+
+  List suppots 2 types of indexes
+  1.Forward index or positive index-->index starts from left to right
+                                   -->index starts with 0.
+  2.Backward index or negative index-->index starts from right to left
+                                    -->index starts with -1.
+
+     0   1    2   3   4-------->positive index/forward index
+  x=[10, 20, 30, 40, 50]
+     -5  -4  -3  -2  -1 ------->Negative index /backward index
+
+ 6.List is a mutable object i.e changes and modifications are allowed
+   withinn a list.
+
+ 7.List can also be created by using list() function.
+
+
+
+
+Examples of list object:
+
+x = [1,2,3, 4]
+x1 = [1, 'A', 4,5]
+
+----------------------------------------------------------------------------------------------------------
+
+2) tupple data type ------> same as tuple but immutable in nature.
+
+
+#Tuples: Tuple is a collection datatype which holds group of values
+#Tuple Properties:
+
+1.Tuple represented using ()
+
+2.Tuple allows both homogenous(same datatype) and heterogeneous(different datatype) elements
+  ex:  x=(10,20,30,40,50)   #homogenous elements
+       y=(101,"James",70890.70,[1,2,3]) #heterogeneous elements
+
+3. Tuple allows duplicate elements   ex:  x=(10,20,30,10,20)
+
+4. In tuple insertion order is preserved(followed) ,i.e the order in which the
+   elements are inserted,in the same order they are stored or displayed
+
+5. Every element of a tuple,is identified or accessed by a unique index
+
+   tuple support 2 types of indexes:
+
+       1.Forward index (or) Positive index---->starts from left to right
+                                         ----->starts with 0
+
+       2.Backward index(or) Negative index----->Starts from right to left
+                                          ----->starts with -1.
+                                          
+                  0   1   2   3   4---->forward/positive index
+        ex:  x= (10, 20, 30, 40, 50)
+                 -5  -4  -3  -2  -1---->Backward/Negative index
+
+6. Tuple is a immutable object i,e changes and modifications are not allowed
+    within a tuple
+
+    ex: y=(101,"James",70890.70,[1,2,3])
+        
+7. tuple can also be created by using tuple() function.
+
+
+Examples of tuple object:
+
+x = (1,2,3, 4)
+x1 = (1, 'A', 4,5)
+
+-------------------------------------------------------------------------------------------------------------
+
+3) set -----------------> duplicates are not allowed and insertion order is not preserved 
+SET:SET is a collection datatype which holds group of values.
+
+Properties of SET:
+
+1.Set represented by using curly braces {  }
+
+2.Set allows homogeneous elements.  ex;  x={10,20,30,40,50}
+
+3.Set allows heterogeneous elements. ex: x={501,6.1,True,"hello"}
+
+4.Set doesn't allow duplicates.  ex: x={10,20,30,40,50,10,20,30}
+
+5.In Set, insertion order is not preserved i.e the way they are inserted , in the same order they are not stored or displayed.
+
+6.Set doesn't support indexing.
+
+  we cannot access elements of set using index, print(x[1]) is invalid.
+
+  we can access the elements of a set using for loop,
+
+  we cannot access using while loop also because while loop requires index.
+
+7.Set is a mutable object, but elements of set should be immutable only.
+
+  ex:  x={10,20,30,(40,50,60)}
+
+8.Set can be created directly by using { } or by using set() function.
+
+9.sets within a set is not allowed bcoz set allows only immutables within it.
+
+10.we can perform mathematical operations on a set object.
+
+  ex: max,min,sorted------>applied on homogeneous elements.
+
+
+Example:
+x = {1,2,3, 4}
+x1 = {1, 'A', 4,5}
+
