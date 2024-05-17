@@ -1,7 +1,7 @@
 Fundamental data types:
-Fundamental data types are immutable. 
+Fundamental data types are immutable. Once an object is created, we cannot perform any changes in the object. If we want to change, a new object is created.
 
-1)Str - String data type. sequence of characters enclosed within single double or triple quotes
+1)Str - String data type. sequence of characters enclosed within single double or triple quotes. 
 
 Example:
 
@@ -36,3 +36,13 @@ print(c)
 
 5)Complex- complex data type has "real part" and "imaginary part" 
 a + bj
+
+Type Casting:
+Following are various inbuilt functions available for type casting in python 
+
+1) int()
+2) float()
+3) complex()
+4) bool()
+5) str()
+
