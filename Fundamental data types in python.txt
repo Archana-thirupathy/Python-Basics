@@ -1,0 +1,38 @@
+Fundamental data types:
+Fundamental data types are immutable. 
+
+1)Str - String data type. sequence of characters enclosed within single double or triple quotes
+
+Example:
+
+a = 'Hello students'
+print(a)
+
+
+2)Int - represent whole numbers
+
+b = 44
+x = 55
+print(b+x)
+
+
+3)float - represents floating point values
+
+e = 24.4
+x = 22.0
+print(e+x)
+
+
+4)Bool
+
+True/False - True takes 1 and False is 0
+
+Example:
+
+e = 24.4
+x = 22.0
+c = e==x
+print(c)
+
+5)Complex- complex data type has "real part" and "imaginary part" 
+a + bj
